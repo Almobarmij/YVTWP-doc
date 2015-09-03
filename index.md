@@ -47,3 +47,12 @@ The `Default Import Settings` page will save you the time of typing the same det
 
 
 ##Importing Feed
+
+After selecting the feed type and filling tabs accordingly, you can click `Save and Import feed` to start the import. This will show the list of found videos (except for single video import) with pagination if necessary. If you chose to do a bulk import, you'll be redirected the a screen showing the import progress.
+
+If a video already exists, it will have a label next to the video title. You can also customize which video details you want to show on screen and how many videos to use for the pagination.
+
+The below video shows a demo on the basic plugin usage.
+
+// video here
+
