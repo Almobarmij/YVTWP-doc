@@ -4,18 +4,37 @@ YVTWP (Youtube Videos To Wordpress Posts) plugin allows users to import Youtube 
 
 Before you start using the plugin, you must get a Google API key. Navigate to the `Youtube API Settings` menu, follow the instructions to get your API key and paste it on the `Developer Key` input.
 
+###Steps
+After signing to Google account, navigate to the [Developer Console](https://console.developers.google.com/project) and click on the `Create Project` button.
+
+![Create Project](https://dl.dropboxusercontent.com/s/8iy2oc50gn18k7m/Screenshot%202015-09-02%2012.31.52.png?dl=0)
+
+Give your project a name and click `create`. Now you can select your project from the list at the top of the window.
+
+![Choose Project](https://dl.dropboxusercontent.com/s/xr5jtwxhdc8x017/Screenshot%202015-09-02%2013.25.53.png?dl=0)
+
+The left menu contains an `APIs & auth` menu where you can activate Youtube API if it's not activated by default.
+
+![Activate Youtube API](https://dl.dropboxusercontent.com/s/ea79aa10gm2xjrj/yvtwp_activate_api.gif?dl=0)
+
+Select `credentials and create a new API key.
+
+![Create API Key](https://dl.dropboxusercontent.com/s/dxy58c57qws6nqf/yvtwp_create_key.gif?dl=0)
+
 ##Plugin Dashboard
 
 The plugin dashboard shows the list of imports with the pagination and filter options. You can see more details about the import by clicking the `Load feed` link.
 
 ![Imports list](https://dl.dropboxusercontent.com/s/vmkasnxcbsdk2af/Screenshot%202015-09-02%2014.21.04.png?dl=0)
 
-To minimize the number of API requests, we implemented a caching system for results. You can clear the cache by clicking on the `Clear Cache` link on list items.
+To minimize the number of API requests, we implemented a caching system for results and it's cleared whenever you change the import options. You can clear the cache by clicking on the `Clear Cache` link on list items.
 When you remove an import, the list of posts you imported are also going to be removed from Wordpress. Make sure that you don't remove any existing data.
 
 ##New Import
 
 You can create new imports from the `New Import` link. You have the option to import channels videos, playlists, user videos, search using a query, single video. Before exploring each import type, lets talk more about option tabs.
+
+![New Import](https://dl.dropboxusercontent.com/s/dvss0hrki3dhhjo/Screenshot%202015-09-03%2012.39.24.png?dl=0)
 
 ###Feed Options
 
@@ -25,11 +44,11 @@ Advanced video filter allows you to filter down videos using video definition, d
 
 ###General Options
 
-The general options tabs specify how videos are integrated into Wordpress. You can import videos as posts, pages, attachments, etc. You can also specify post status, author (post owner) and how video thumbnail is imported. You can specify if you want to update a post if it was already imported.
+The general options tabs specify how videos are integrated into Wordpress. You can import videos as posts, pages or any custom post type. You can also specify post status, author (post owner) and how video thumbnail is imported. You can specify if you want to update a post if it was already imported.
 
 ###Embed Options
 
-The embed options tab specify how videos are inserted into Wordpress, you can create the necessary markup and inject variable like `video_key`, `video_url`, etc. The bottom section is used to map those variable to custom fields, this option can be useful if you're using a video theme.
+The embed options tab specify how videos are inserted into Wordpress, you can create the necessary HTML markup and inject variable like `video_key`, `video_url`, `video_description`, `video_title`, etc. You can also use the `yvtwp_video` shortcode to simply add the video iframe. The bottom section is used to map those variable to custom fields, this option can be useful if you're using a video theme.
 
 ###Title & Description Options
 
@@ -45,7 +64,6 @@ As the name suggest, these options are useful for scheduling videos posting. You
 
 The `Default Import Settings` page will save you the time of typing the same details every time you want to perform a new import.
 
-
 ##Importing Feed
 
 After selecting the feed type and filling tabs accordingly, you can click `Save and Import feed` to start the import. This will show the list of found videos (except for single video import) with pagination if necessary. If you chose to do a bulk import, you'll be redirected the a screen showing the import progress.
@@ -56,3 +74,18 @@ The below video shows a demo on the basic plugin usage.
 
 // video here
 
+##Key Features
+
+- Multiple feed types integration. (single video, channel, user, playlists, search query)
+- Powerful caching system.
+- Bulk import.
+- Result filter support.
+- Custom post type integration.
+- Scheduled posting.
+- Flexible embed options for your theme.
+
+##Screenshots
+
+![Import result](https://dl.dropboxusercontent.com/s/unm1v1maqt7y3oh/Screenshot%202015-09-03%2012.23.03.png?dl=0)
+![Bulk Import](https://dl.dropboxusercontent.com/s/ds8jrwwiex3445m/Screenshot%202015-09-03%2012.54.59.png?dl=0)
+![Imports](https://dl.dropboxusercontent.com/s/muy89loay6x40hx/Screenshot%202015-09-03%2013.00.00.png?dl=0)
