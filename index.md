@@ -73,7 +73,7 @@ The title and description options allow you to perform transformation to the tit
 
 As the name suggest, these options are useful for scheduling videos posting. You need to activate it by selecting `Yes` on the `Activate post scheduling`, and then you can select the starting date and time and time interval between each post.
 
-    *Note:* You can set `Random min value` and `Random max value` to the same value if you want a fixed margin time between posts.
+*Note:* You can set `Random min value` and `Random max value` to the same value if you want a fixed margin time between posts.
 
 ![Scheduling Options Tab](https://dl.dropboxusercontent.com/s/c7p9xtl36hec1wj/Screenshot%202015-09-04%2011.16.57.png?dl=0)
 
