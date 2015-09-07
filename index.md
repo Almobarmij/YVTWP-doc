@@ -17,7 +17,7 @@ The left menu contains an `APIs & auth` menu where you can activate Youtube API 
 
 ![Activate Youtube API](https://dl.dropboxusercontent.com/s/ea79aa10gm2xjrj/yvtwp_activate_api.gif?dl=0)
 
-Select `credentials and create a new API key.
+Select `credentials` and create a new API key.
 
 ![Create API Key](https://dl.dropboxusercontent.com/s/dxy58c57qws6nqf/yvtwp_create_key.gif?dl=0)
 
@@ -57,7 +57,7 @@ The general options tabs specify how videos are integrated into Wordpress.
 
 ###Embed Options
 
-The embed options tab specify how videos are inserted into Wordpress, you can create the necessary HTML markup and inject variables like `video_key`, `video_url`, `video_description`, `video_title`, etc. You can also use the `[yvtwp_video]` shortcode to simply add the Youtube video iframe. The bottom section is used to map those variable to custom fields. This option lets you easily integrate imported videos into your theme.
+The embed options tab specify how videos are inserted into Wordpress. You can create the necessary HTML markup and inject variables like `video_key`, `video_url`, `video_description`, `video_title`, etc. You can also use the `[yvtwp_video]` shortcode to simply add the Youtube video iframe. The bottom section is used to map those variables to custom fields by selecting an existing value or taping your own value. This option lets you easily integrate imported videos into your theme.
 
 ![Feed Options Tab](https://dl.dropboxusercontent.com/s/hpm9liai5oj5uj1/Screenshot%202015-09-04%2011.14.06.png?dl=0)
 
@@ -85,7 +85,7 @@ The `Default Import Settings` page will save you the time of typing the same det
 
 ##Importing Feed
 
-After selecting the feed type and filling tabs accordingly, you can click `Save and Import feed` to start the import. This will show the list of found videos (except for single video import) with pagination if necessary. If you chose to do a bulk import, you'll be redirected the a screen showing the import progress.
+After selecting the feed type and filling tabs accordingly, you can click `Save and Import feed` to start the import. This will show the list of found videos (except for single video import) with pagination if necessary. If you chose to do a bulk import, you'll be redirected the screen showing the import progress.
 
 If a video already exists, it will have a label next to the video title. You can also customize which video details you want to show on screen and how many videos to use for the pagination.
 
@@ -95,9 +95,20 @@ The below video shows a demo on the basic plugin usage.
 
 // video here
 
+##General Settings
+
+The general settings tab allows you to adapt the plugin to your needs. Lets see each one apart.
+
+- `Activate error logging`: activate general error logging.
+- `Activate Youtube API error logging`: show Youtube API errors.
+- `Bulk import refresh interval`: How often to refresh the bulk import screen.
+- `AJAX request type`: Use Wordpress AJAX system or use a custom file to avoid conflicts.
+
+![General Settings](https://dl.dropboxusercontent.com/s/f4lmdm0qfb2s04v/Screenshot%202015-09-07%2015.45.40.png?dl=0)
+
 ##Key Features
 
-- Youtube API v3
+- Youtube API v3.
 - Multiple feed types integration. (single video, channel, user, playlists, search query)
 - Powerful caching system.
 - Bulk import.
@@ -111,7 +122,7 @@ The below video shows a demo on the basic plugin usage.
 
 ![Import result](https://dl.dropboxusercontent.com/s/unm1v1maqt7y3oh/Screenshot%202015-09-03%2012.23.03.png?dl=0)
 
-![Bulk Import](https://dl.dropboxusercontent.com/s/g10todl8k0wbrop/Screenshot%202015-09-04%2011.32.19.png?dl=0)
+![Bulk Import](https://dl.dropboxusercontent.com/s/oo10j53lul0nwcj/Screenshot%202015-09-07%2015.38.28.png?dl=0)
 
 ![Imports](https://dl.dropboxusercontent.com/s/muy89loay6x40hx/Screenshot%202015-09-03%2013.00.00.png?dl=0)
 
