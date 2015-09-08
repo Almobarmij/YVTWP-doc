@@ -59,7 +59,7 @@ The general options tabs specify how videos are integrated into Wordpress.
 
 The embed options tab specify how videos are inserted into Wordpress. You can create the necessary HTML markup and inject variables like `video_key`, `video_url`, `video_description`, `video_title`, etc. You can also use the `[yvtwp_video]` shortcode to simply add the Youtube video iframe. The bottom section is used to map those variables to custom fields by selecting an existing value or taping your own value. This option lets you easily integrate imported videos into your theme.
 
-![Feed Options Tab](https://dl.dropboxuserconent.com/s/qtwe5dsxlg1n7lj/Screenshot%202015-09-08%2019.34.38.png?dl=0)
+![Feed Options Tab](https://dl.dropboxusercontent.com/s/qtwe5dsxlg1n7lj/Screenshot%202015-09-08%2019.34.38.png?dl=0)
 
 ###Title & Description Options
 
@@ -126,7 +126,7 @@ The general settings tab allows you to adapt the plugin to your needs. Lets see 
 
 ![Imports](https://dl.dropboxusercontent.com/s/muy89loay6x40hx/Screenshot%202015-09-03%2013.00.00.png?dl=0)
 
-![Feed Options Tab](https://dl.dropboxuserconent.com/s/qtwe5dsxlg1n7lj/Screenshot%202015-09-08%2019.34.38.png?dl=0)
+![Feed Options Tab](https://dl.dropboxusercontent.com/s/qtwe5dsxlg1n7lj/Screenshot%202015-09-08%2019.34.38.png?dl=0)
 
 ![Schedule Options](https://dl.dropboxusercontent.com/s/8oqxrb4h2vxmxnv/Screenshot%202015-09-04%2011.37.34.png?dl=0)
 
